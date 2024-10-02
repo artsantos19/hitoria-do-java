@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do JavaScript e sua relação com HTML, CSS e PHP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>História do JavaScript e sua Relação com HTML, CSS e PHP</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarPopup('js-popup')">JavaScript</a></li>
+                <li><a href="#" onclick="mostrarPopup('html-popup')">HTML</a></li>
+                <li><a href="#" onclick="mostrarPopup('css-popup')">CSS</a></li>
+                <li><a href="#" onclick="mostrarPopup('php-popup')">PHP</a></li>
+            </ul>
+            <img src="https://media.licdn.com/dms/image/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=rtD52hfy37nFVmc4_MXfnflV6C-ke773W70SYJLoWRc"
+           
+            class="responsive-img">
+        </nav>
+    </header>
+
+    <section class="introduction">
+        <h2>Introdução</h2>
+        <p>
+            O desenvolvimento web moderno é construído sobre quatro tecnologias essenciais: HTML, CSS, JavaScript e PHP.
+            Cada uma delas desempenha um papel fundamental na criação de páginas dinâmicas e interativas.
+        </p>
+    </section>
+
+    <!-- Popups -->
+    <div id="js-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup('js-popup')">&times;</span>
+            <h2>JavaScript</h2>
+            <p>JavaScript foi criado por Brendan Eich em 1995. Inicialmente, ele foi projetado para rodar em navegadores e adicionar dinamismo às páginas web. Hoje, o JavaScript é amplamente usado em conjunto com HTML e CSS para criar interfaces interativas, animações, validação de formulários, e até mesmo no back-end com o Node.js.</p>
+            <p>Ele é a linguagem de programação que permite ao desenvolvedor fazer com que páginas web reajam de forma interativa com o usuário.</p>
+            <h3>Principais Características</h3>
+            <ul>
+                <li>Linguagem de script interpretada</li>
+                <li>Utilizado tanto no front-end quanto no back-end</li>
+                <li>Suporte a bibliotecas e frameworks como React, Angular, Vue.js</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="html-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup('html-popup')">&times;</span>
+            <h2>HTML</h2>
+            <p>HTML (HyperText Markup Language) é a base da web. Criado em 1991 por Tim Berners-Lee, ele define a estrutura de uma página web usando uma série de elementos como cabeçalhos, parágrafos, links, imagens e vídeos. HTML é essencial para organizar o conteúdo de um site de maneira coerente e acessível.</p>
+            <h3>Principais Características</h3>
+            <ul>
+                <li>Linguagem de marcação</li>
+                <li>Organiza a estrutura do conteúdo</li>
+                <li>Compatível com todos os navegadores</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="css-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup('css-popup')">&times;</span>
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheets) foi desenvolvido em 1996 e é a tecnologia usada para estilizar páginas web. Ele define como os elementos HTML devem ser exibidos, permitindo que desenvolvedores apliquem cores, layouts, tipografia e animações.</p>
+            <p>Ele ajuda a criar interfaces atraentes e proporciona uma experiência de usuário agradável e visualmente coerente.</p>
+            <h3>Principais Características</h3>
+            <ul>
+                <li>Controle total sobre o layout da página</li>
+                <li>Compatível com animações e efeitos visuais</li>
+                <li>Permite criar layouts responsivos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="php-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup('php-popup')">&times;</span>
+            <h2>PHP</h2>
+            <p>PHP (Hypertext Preprocessor) é uma linguagem de programação voltada para o desenvolvimento de aplicações web dinâmicas. Criada em 1994, PHP é frequentemente usada em combinação com HTML para gerar páginas dinamicamente no servidor.</p>
+            <h3>Principais Características</h3>
+            <ul>
+                <li>Linguagem de script do lado do servidor</li>
+                <li>Integração com bancos de dados como MySQL</li>
+                <li>Ampla utilização em sistemas de gerenciamento de conteúdo como WordPress</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img2">
+        <img src="https://www.squash.io/wp-content/uploads/2023/11/javascript-series.jpg" class="responsive-img-large">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 História do JavaScript e Ferramentas Relacionadas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
